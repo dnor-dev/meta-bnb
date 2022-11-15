@@ -17,12 +17,12 @@ const Layout = ({ children }) => {
       }
     };
   }, []);
-
+  /* autoprefixer: off */
   return (
     <div>
       <header
         className={clsx(
-          'mb-4 sticky w-full z-50 top-[-1px] bg-[#fff] smooth-transition',
+          'mb-4 sticky w-full z-50 top-[-1px] bg-[#fff] smooth-transition-',
           scrolled && 'shadow-lg',
         )}
       >

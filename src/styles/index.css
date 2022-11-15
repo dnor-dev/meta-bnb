@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@100;400;500;600;700;800&family=Red+Rose:wght@300;400;500;600;700&family=Sora:wght@100;200;300;400;500;600;700;800&family=Ubuntu&display=swap');
 
+/* autoprefixer: off */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,7 +28,6 @@ body {
   background: rgba(247, 247, 247, 0.1);
   border: 1px solid #b8b8b8;
   border-radius: 8px 0px 0px 8px;
-  transform: sca;
 }
 
 .input-border::placeholder {
@@ -57,6 +58,6 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.smooth-transition {
+.smooth-transition-transition {
   transition: all ease-out 200ms;
 }
