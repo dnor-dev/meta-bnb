@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@100;400;500;600;700;800&family=Red+Rose:wght@300;400;500;600;700&family=Sora:wght@100;200;300;400;500;600;700;800&family=Ubuntu&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+}
+
+/* Custom CSS */
+body {
+  margin: 0;
+  font-family: 'Red Rose' !important;
+}
+
+/* Utils(shared) */
+.btn-color {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
+
+.theme-font {
+  color: #a02279 !important;
+}
+
+.input-border {
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #b8b8b8;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.input-border::placeholder {
+  color: #b8b8b8;
+}
+
+.fade-bg {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.modal-backdrop {
+  z-index: -1 !important;
+}
