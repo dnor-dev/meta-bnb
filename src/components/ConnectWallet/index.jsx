@@ -6,7 +6,7 @@ const ConnectWallet = () => {
     <>
       <button
         type="button"
-        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] py-4 px-7 rounded-lg hover:bg-[#7e2060] transition-all duration-300 ease-out hidden lg:block"
+        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] py-4 px-7 rounded-lg hover:bg-[#7e2060] smooth-transition hidden lg:block"
         data-bs-toggle="modal"
         data-bs-target="#exampleModalCenter"
       >
@@ -15,7 +15,7 @@ const ConnectWallet = () => {
 
       <button
         type="button"
-        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] p-1 rounded-lg hover:bg-[#7e2060] transition-all duration-300 ease-out lg:hidden"
+        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] p-1 rounded-lg hover:bg-[#7e2060] smooth-transition lg:hidden"
         data-bs-toggle="modal"
         data-bs-target="#exampleModalCenter"
       >
