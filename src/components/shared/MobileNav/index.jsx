@@ -23,7 +23,7 @@ const MobileNavs = () => {
       </button>
 
       <div
-        className="w-[70%] h-screen rounded shadow-lg bg-white pb-10 pt-0 right-0 scale-0 absolute shadow-xl top-0 smooth-transition-"
+        className="w-[70%] h-screen rounded shadow-lg bg-white pb-10 pt-0 right-0 scale-0 absolute shadow-xl top-0 smooth-transition"
         style={{
           transform: mobileNav ? 'scale(1)' : 'scale(0)',
           transformOrigin: 'right',
@@ -57,7 +57,7 @@ const MobileNavs = () => {
               >
                 <Link to={link.path}>
                   <a
-                    className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-ellipsis whitespace-nowrap rounded hover:bg-gray-100 smooth-transition-"
+                    className="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-ellipsis whitespace-nowrap rounded hover:bg-gray-100 smooth-transition"
                     href="#!"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="dark"

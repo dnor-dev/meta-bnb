@@ -58,6 +58,6 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.smooth-transition-transition {
+.smooth-transition {
   transition: all ease-out 200ms;
 }

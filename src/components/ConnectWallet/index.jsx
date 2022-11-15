@@ -6,7 +6,7 @@ const ConnectWallet = () => {
     <>
       <button
         type="button"
-        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] py-4 px-7 rounded-lg hover:bg-[#7e2060] smooth-transition- hidden lg:block"
+        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] py-4 px-7 rounded-lg hover:bg-[#7e2060] smooth-transition hidden lg:block"
         data-bs-toggle="modal"
         data-bs-target="#exampleModalCenter"
       >
@@ -15,7 +15,7 @@ const ConnectWallet = () => {
 
       <button
         type="button"
-        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] p-1 rounded-lg hover:bg-[#7e2060] smooth-transition- lg:hidden"
+        className="bg-[#a02279] leading-[20px] text-[16px] text-[#fff] p-1 rounded-lg hover:bg-[#7e2060] smooth-transition lg:hidden"
         data-bs-toggle="modal"
         data-bs-target="#exampleModalCenter"
       >
@@ -57,7 +57,7 @@ const ConnectWallet = () => {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body relative lg:px-7 px-5 mt-6">
+            <div className="modal-body relative lg:px-7 px-5 mt-5">
               <div className="flex flex-col gap-3">
                 <p className="text-[#333333] leading-[20px] text-sm lg:text-base">
                   Choose your preferred wallet
