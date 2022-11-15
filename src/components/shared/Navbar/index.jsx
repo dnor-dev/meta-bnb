@@ -3,14 +3,18 @@ import { homelinks } from '../../../utils/links';
 import { Link } from 'react-router-dom';
 import ConnectWallet from '../../ConnectWallet';
 import MobileNavs from '../MobileNav';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="home flex items-center justify-between md:justify py-6 w-full lg:w-[1240px] px-4  mx-auto">
       <img
         src="/images/meta-bnb.svg"
         alt="meta_bnb"
         className="w-[40%] lg:w-auto md:w-[30%]"
+        onClick={() => navigate('/')}
       />
       <div className="hidden lg:flex md:flex items-center gap-10 md:gap-5">
         {homelinks.length !== 0 &&

@@ -26,6 +26,7 @@ body {
   background: rgba(247, 247, 247, 0.1);
   border: 1px solid #b8b8b8;
   border-radius: 8px 0px 0px 8px;
+  transform: sca;
 }
 
 .input-border::placeholder {
@@ -43,4 +44,15 @@ body {
 
 .modal-backdrop {
   z-index: -1 !important;
+  background-color: #fff !important;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
 }

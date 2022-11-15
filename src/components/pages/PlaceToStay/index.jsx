@@ -23,7 +23,7 @@ const PlaceToStay = () => {
           <i className="fa fa-sliders text-[#333333] " aria-hidden="true"></i>
         </div>
       </div>
-      <div className="grid justify-center w-full grid-cols-1 lg:grid-cols-4 md:grid-cols-3 mt-12 md:gap-y-[0px] gap-y-4">
+      <div className="grid w-full grid-cols-1 lg:grid-cols-4 md:grid-cols-3 mt-12 md:gap-y-[0px] gap-y-5">
         {PlaceToStayImages.length !== 0 &&
           PlaceToStayImages.map((image) => (
             <InspirationCards image={image.image} key={image.id} />

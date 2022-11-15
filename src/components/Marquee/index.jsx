@@ -2,7 +2,7 @@ import React from 'react';
 
 const Marquee = () => {
   return (
-    <div className="btn-color flex lg:justify-around gap-8 lg:gap-0 h-[70px] py-4 mt-20 lg:px-0 px-4">
+    <div className="btn-color flex items-center lg:justify-around gap-8 lg:gap-0 h-[70px] py-4 mt-20 lg:px-0 px-4">
       <div className="self-center">
         <img
           src="/images/logo-3.svg"

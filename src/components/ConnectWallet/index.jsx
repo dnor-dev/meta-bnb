@@ -43,9 +43,9 @@ const ConnectWallet = () => {
       >
         <div className="modal-dialog modal-dialog-centered relative w-auto pointer-events-none">
           <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-[16px] outline-none text-current">
-            <div className="modal-header flex flex-shrink-0 items-center py-4 px-7 justify-between border-b border-[#CFD8DC] rounded-t-md">
+            <div className="modal-header flex flex-shrink-0 items-center py-4 lg:px-7 px-5 justify-between border-b border-[#CFD8DC] rounded-t-md">
               <h5
-                className="text-[#333333] font-bold leading-[30px] text-[24px]"
+                className="text-[#333333] font-bold leading-[30px] lg:text-[24px] text-[18px]"
                 id="exampleModalScrollableLabel"
               >
                 Connect Wallet
@@ -57,21 +57,25 @@ const ConnectWallet = () => {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body relative px-7 mt-6">
+            <div className="modal-body relative lg:px-7 px-5 mt-6">
               <div className="flex flex-col gap-3">
-                <p className="text-[#333333] leading-[20px]">
+                <p className="text-[#333333] leading-[20px] text-sm lg:text-base">
                   Choose your preferred wallet
                 </p>
                 <div className="flex flex-col gap-3 mb-7">
                   {WalletConnect.length !== 0 &&
                     WalletConnect.map((wallet) => (
                       <div
-                        className="flex w-full items-center justify-between bg-[#F8F9FA] border border-[#CFD8DC] rounded-[12px] py-[12px] px-[20px] cursor-pointer hover:bg-[#c7cbcc]"
+                        className="flex w-full items-center justify-between bg-[#F8F9FA] border border-[#CFD8DC] rounded-[12px] py-[12px] lg:px-[20px] px-[16px] cursor-pointer hover:bg-[#c7cbcc]"
                         key={wallet.id}
                       >
-                        <div className="flex gap-[16px] items-center">
-                          <img src={wallet.image} alt={wallet.name} />
-                          <p className="text-[#000] leading-[23px] text-[18px] font-semibold font-[Sora]">
+                        <div className="flex lg:gap-[16px] gap-[10px] items-center">
+                          <img
+                            src={wallet.image}
+                            className="w-[20%] lg:w-[auto] md:w-[40%]"
+                            alt={wallet.name}
+                          />
+                          <p className="text-[#000] leading-[23px] lg:text-[18px] text-sm font-semibold font-[Sora]">
                             {wallet.name}
                           </p>
                         </div>
